@@ -3,7 +3,7 @@ import React from 'react'
 
 const Main = () => {
   return (
-   <div className="backdrop-blur-[2px] bg-black/83 w-full h-[982px]">
+   <div className="backdrop-blur-[2px] bg-black/83 w-full h-[982px]"> 
     <div
   id="ViewlistRoot"
   className="overflow-hidden bg-white flex flex-col gap-0 w-full items-start rounded-br-lg rounded-bl-lg"
@@ -57,7 +57,7 @@ const Main = () => {
         className="mt-px w-2"
       />
       <div>
-        <button  className="text-xs font-['Lexend_Giga'] font-medium text-white text-center text-justify">
+        <button className="text-xs font-['Lexend_Giga'] font-medium text-white md-2 mt-0">
           Back
           </button>
       </div>
